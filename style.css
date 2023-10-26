@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 2.5rem;
+}
+
+form {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+form label {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+form input[type=button] {
+    width: 100px;
+    height: 20px;
+    font-weight: 600;
+}
