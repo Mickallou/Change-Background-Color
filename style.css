@@ -18,7 +18,9 @@ h1 {
 
 form {
     margin-top: 50px;
-    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 form label {
@@ -26,8 +28,13 @@ form label {
     font-weight: 600;
 }
 
+form input[type=color] {
+    margin-left: 15px;
+}
+
 form input[type=button] {
     width: 100px;
     height: 20px;
     font-weight: 600;
+    margin-left: 15px;
 }
